@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Yaks</title>
+        <vendor>re588</vendor>
+        <homepage href=""/>
+        <description>Yaks</description>
+        <description kind="short">Yaks</description>
+        
+        
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.6+"/>
+        <jar href="Yaks.jar" main="true"/>
+        
+        
+    <jar href="lib/plugin.jar"/>
+</resources>
+    <applet-desc height="1" main-class="view.BrowserTextHandler" name="Yaks" width="1">
+        
+    </applet-desc>
+</jnlp>
